@@ -1,0 +1,1675 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "b8e4607c-34cf-448c-9c9a-5ae2b14d92b7")
+	(paper "USLetter")
+	(title_block
+		(rev "R1.001")
+		(company "Ploopy Corporation")
+	)
+	(lib_symbols
+		(symbol "Switches:BTN_0_mirrored_D2LS-21_Switches.SchLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Compact Surface-mounting Switch for long durability"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*D2LS-21*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BTN_0_mirrored_D2LS-21_Switches.SchLib_1_0"
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.778)
+					(radius 0.703)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -1.778)
+					(radius 0.703)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 2.286 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 5.08)
+					(end -2.54 -5.08)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Trackpoint-altium-import:GND_POWER_GROUND"
+			(power global)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Symbol zasilania tworzy globalną etykietę z nazwą 'GND'"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_POWER_GROUND_0_0"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -3.302) (xy 1.778 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy 1.016 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -4.826) (xy 0.254 -4.826)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Sheet"
+		(exclude_from_sim no)
+		(at 209.55 210.82 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "0317600c-a546-4631-a582-a76de831bebf")
+	)
+	(text "${PROJECTNAME}"
+		(exclude_from_sim no)
+		(at 150.622 207.264 0)
+		(effects
+			(font
+				(size 1.651 1.651)
+			)
+			(justify left bottom)
+		)
+		(uuid "058be8d7-eb64-44b0-8c0a-ca4bbed99460")
+	)
+	(text "${CURRENTTIME}"
+		(exclude_from_sim no)
+		(at 170.18 210.82 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "063cd388-b990-4449-9ea0-d0287db0a434")
+	)
+	(text "${CURRENT_DATE}"
+		(exclude_from_sim no)
+		(at 151.13 210.82 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "075cd547-81a2-4407-b1e7-ac109e5cb2a7")
+	)
+	(text "Ploopy Corporation"
+		(exclude_from_sim no)
+		(at 241.3 202.438 0)
+		(effects
+			(font
+				(size 1.651 1.651)
+			)
+			(justify left bottom)
+		)
+		(uuid "1603afba-6722-4d65-bacc-df16b21b75dd")
+	)
+	(text "137-1140 Burnhamthorpe Road W"
+		(exclude_from_sim no)
+		(at 241.3 204.978 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "42b07da7-988e-4230-8096-17982d90f2a8")
+	)
+	(text "Time:"
+		(exclude_from_sim no)
+		(at 163.83 210.82 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d9fbd8d-c34e-41d7-a341-d5517525d8d8")
+	)
+	(text "Mississauga ON L5C 0A3"
+		(exclude_from_sim no)
+		(at 241.3 207.518 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ca7520e-2aab-4465-b213-91536bcadc00")
+	)
+	(text "Canada"
+		(exclude_from_sim no)
+		(at 241.3 210.058 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d3ebe7f-218a-4f71-94ac-e964fe5a69f9")
+	)
+	(text "${FILENAME}"
+		(exclude_from_sim no)
+		(at 150.622 202.184 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "8fe3aee5-830c-4783-a2aa-8b9913075975")
+	)
+	(text "Copyright Ploopy Corporation"
+		(exclude_from_sim no)
+		(at 99.314 202.946 0)
+		(effects
+			(font
+				(size 1.397 1.397)
+			)
+			(justify left bottom)
+		)
+		(uuid "90fba76c-0670-400e-91ef-4682f2b853ba")
+	)
+	(text "Date:"
+		(exclude_from_sim no)
+		(at 144.78 210.82 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "9135bc4c-7db6-4d2c-ac01-8f3eabbb3f02")
+	)
+	(text "Version:"
+		(exclude_from_sim no)
+		(at 209.55 207.01 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "a19b7c13-fd7e-4a28-aa95-e339b2758883")
+	)
+	(text "PCB:"
+		(exclude_from_sim no)
+		(at 144.78 207.01 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "bdc46196-f66d-40a1-b3a1-1cc38ac27d80")
+	)
+	(text "${##}"
+		(exclude_from_sim no)
+		(at 223.266 210.82 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "c02e8455-b053-4760-b0bb-499ffda31698")
+	)
+	(text "${REVISION}"
+		(exclude_from_sim no)
+		(at 218.186 207.264 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2c8393d-2514-4067-8a66-1395a7d70d62")
+	)
+	(text "${#}"
+		(exclude_from_sim no)
+		(at 216.154 210.82 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9f29993-529d-4f60-8e09-59d5a3d239be")
+	)
+	(text "http://ohwr.org/cernohl"
+		(exclude_from_sim no)
+		(at 99.314 209.042 0)
+		(effects
+			(font
+				(size 1.397 1.397)
+			)
+			(justify left bottom)
+		)
+		(uuid "de3c4701-d530-4a18-a98f-fc076ba51e4d")
+	)
+	(text "of"
+		(exclude_from_sim no)
+		(at 219.71 210.82 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "e57c9c72-1f9f-49bf-8bff-178aebafc6db")
+	)
+	(text "Title:"
+		(exclude_from_sim no)
+		(at 144.78 201.93 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "f938ecc5-7ab7-4697-9d89-53b4b3fcda7c")
+	)
+	(text "Licensed under the CERN-OHL-S v2"
+		(exclude_from_sim no)
+		(at 99.314 206.248 0)
+		(effects
+			(font
+				(size 1.397 1.397)
+			)
+			(justify left bottom)
+		)
+		(uuid "fad859bf-f56d-49a5-8d77-bf8aa6c926a0")
+	)
+	(text_box "These switches can be found under the various buttons on the mouse.\n\nActivate the pull-up resistors on the GPIO pins attached to these switches to make them work."
+		(exclude_from_sim no)
+		(at 271.78 7.62 0)
+		(size -25.4 50.8)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "411b2af3-8d18-418d-99b1-62f4dcea1931")
+	)
+	(wire
+		(pts
+			(xy 185.42 119.38) (xy 187.96 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28af9a3f-428c-4de3-9c4c-623ce7423878")
+	)
+	(wire
+		(pts
+			(xy 119.38 119.38) (xy 121.92 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a05b14f-932a-4d07-a0f8-79604cdc322d")
+	)
+	(wire
+		(pts
+			(xy 121.92 78.74) (xy 121.92 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3878d3e4-0562-43fd-ac9f-2748ab781600")
+	)
+	(wire
+		(pts
+			(xy 187.96 119.38) (xy 187.96 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ff73ee9-422d-4b88-acb7-3b72c7280326")
+	)
+	(wire
+		(pts
+			(xy 101.6 78.74) (xy 104.14 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41902821-9713-4ddf-93e3-5bf8c460cf67")
+	)
+	(polyline
+		(pts
+			(xy 143.51 203.2) (xy 227.33 203.2)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "52a97df1-1256-4fb9-95bd-d0af1cb53b87")
+	)
+	(wire
+		(pts
+			(xy 185.42 78.74) (xy 187.96 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62f072ac-de37-44ce-9098-a2aae2b37efe")
+	)
+	(wire
+		(pts
+			(xy 121.92 119.38) (xy 121.92 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7247929d-a957-4ed8-9cc1-764b42b4ff16")
+	)
+	(wire
+		(pts
+			(xy 101.6 119.38) (xy 104.14 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aadbbfc7-4289-48f8-a111-ea4c87668eb2")
+	)
+	(wire
+		(pts
+			(xy 119.38 78.74) (xy 121.92 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b979e8af-56e3-4226-9e9f-a91f25a551a6")
+	)
+	(polyline
+		(pts
+			(xy 274.32 198.12) (xy 143.51 198.12)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "ba5d60bd-4da2-400d-bced-c387f66645eb")
+	)
+	(polyline
+		(pts
+			(xy 97.79 198.12) (xy 97.79 210.82)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "bca5d72e-566a-4afc-aecb-ebf2d3f3489f")
+	)
+	(polyline
+		(pts
+			(xy 208.28 203.2) (xy 208.28 210.82)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "bf9d3dcd-4e8f-4a96-a3ae-313cb0d39a17")
+	)
+	(polyline
+		(pts
+			(xy 143.51 198.12) (xy 97.79 198.12)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "c48cd539-2c09-4339-acc9-6cee73e0d7ff")
+	)
+	(polyline
+		(pts
+			(xy 143.51 208.28) (xy 227.33 208.28)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "cbb53914-c134-44d0-a711-3644e1c88157")
+	)
+	(wire
+		(pts
+			(xy 167.64 119.38) (xy 170.18 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ced7075b-c44f-41eb-bf8e-b61b33ddc22a")
+	)
+	(polyline
+		(pts
+			(xy 227.33 198.12) (xy 227.33 210.82)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "da139ab2-b534-43ff-bf3f-5f74238778a1")
+	)
+	(wire
+		(pts
+			(xy 167.64 78.74) (xy 170.18 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f387a39a-6edf-49ae-9971-62cb6e8c0f54")
+	)
+	(polyline
+		(pts
+			(xy 143.51 198.12) (xy 143.51 210.82)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "f9f253d8-cafa-4b79-85f9-2d769b2b5825")
+	)
+	(wire
+		(pts
+			(xy 187.96 78.74) (xy 187.96 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbd00d88-f4a5-4c02-b43d-7722df8a6684")
+	)
+	(hierarchical_label "ButtonBottomLeft"
+		(shape output)
+		(at 101.6 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0791c14a-b6cd-4db2-86d3-6ddd0bb2785b")
+	)
+	(hierarchical_label "ButtonTopLeft"
+		(shape output)
+		(at 101.6 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1487b4a8-25ad-4a9f-94f9-3f3a21e95cd6")
+	)
+	(hierarchical_label "ButtonTopRight"
+		(shape output)
+		(at 167.64 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "27492385-a1dc-478d-8fa7-4d59cf7e85be")
+	)
+	(hierarchical_label "ButtonBottomRight"
+		(shape output)
+		(at 167.64 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aedeaad8-f4f7-419f-b8bf-3efe55052211")
+	)
+	(symbol
+		(lib_id "Switches:BTN_0_mirrored_D2LS-21_Switches.SchLib")
+		(at 177.8 78.74 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "02e7b546-8682-4669-9568-f8dba402dfb2")
+		(property "Reference" "SW4"
+			(at 172.466 74.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D2LS-21"
+			(at 172.466 83.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "D2LS-21"
+			(at 177.8 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Compact Surface-mounting Switch for long durability"
+			(at 177.8 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 169.672 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIER 2" "Mouser"
+			(at 169.672 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "Z4378CT-ND"
+			(at 169.672 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" "653-D2LS-21"
+			(at 169.672 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "A"
+			(uuid "1e5a1fda-6262-4a59-a4e8-a5b08c03964a")
+		)
+		(pin "B"
+			(uuid "0edb28be-4553-45fa-8674-368e0c2ee925")
+		)
+		(instances
+			(project "Trackpoint"
+				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/7f0b0dd4-adcc-4917-b582-7b19e68204af"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switches:BTN_0_mirrored_D2LS-21_Switches.SchLib")
+		(at 177.8 119.38 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "15d05890-1ea9-49aa-9c68-cf6a6c667f00")
+		(property "Reference" "SW6"
+			(at 172.466 115.57 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D2LS-21"
+			(at 172.466 124.46 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "D2LS-21"
+			(at 177.8 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Compact Surface-mounting Switch for long durability"
+			(at 177.8 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 169.672 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIER 2" "Mouser"
+			(at 169.672 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "Z4378CT-ND"
+			(at 169.672 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" "653-D2LS-21"
+			(at 169.672 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "B"
+			(uuid "17309163-9359-4b4f-ad55-dab28770a646")
+		)
+		(pin "A"
+			(uuid "647db901-1887-47af-8fe6-8635424edca2")
+		)
+		(instances
+			(project "Trackpoint"
+				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/7f0b0dd4-adcc-4917-b582-7b19e68204af"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Trackpoint-altium-import:GND_POWER_GROUND")
+		(at 121.92 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2bfc8390-e1e6-4698-a6be-69f83cfddc92")
+		(property "Reference" "#PWR?"
+			(at 121.92 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "1a5099e7-945a-47a7-8726-ac0113c647aa")
+		)
+		(instances
+			(project "Trackpoint"
+				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/7f0b0dd4-adcc-4917-b582-7b19e68204af"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Trackpoint-altium-import:GND_POWER_GROUND")
+		(at 187.96 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "48d53aab-6754-4056-ae4b-75feead3b91a")
+		(property "Reference" "#PWR?"
+			(at 187.96 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.96 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "b1e0c9b4-961c-447d-9b01-7fb29d71821a")
+		)
+		(instances
+			(project "Trackpoint"
+				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/7f0b0dd4-adcc-4917-b582-7b19e68204af"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switches:BTN_0_mirrored_D2LS-21_Switches.SchLib")
+		(at 111.76 78.74 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "84924333-7136-4401-a21f-982d829bfdf8")
+		(property "Reference" "SW2"
+			(at 106.426 74.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D2LS-21"
+			(at 106.426 83.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "D2LS-21"
+			(at 111.76 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Compact Surface-mounting Switch for long durability"
+			(at 111.76 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 103.632 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIER 2" "Mouser"
+			(at 103.632 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "Z4378CT-ND"
+			(at 103.632 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" "653-D2LS-21"
+			(at 103.632 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "A"
+			(uuid "c46d5a66-714e-49c0-bf54-24598477c070")
+		)
+		(pin "B"
+			(uuid "86eb65f9-49dc-4924-bf92-9ced8f5d0b82")
+		)
+		(instances
+			(project "Trackpoint"
+				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/7f0b0dd4-adcc-4917-b582-7b19e68204af"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Trackpoint-altium-import:GND_POWER_GROUND")
+		(at 121.92 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d8ee0e1e-a2f7-45c0-9ec8-16d2066bc9c6")
+		(property "Reference" "#PWR?"
+			(at 121.92 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "87cd54c2-1e61-4a83-895d-add3371eb22a")
+		)
+		(instances
+			(project "Trackpoint"
+				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/7f0b0dd4-adcc-4917-b582-7b19e68204af"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Trackpoint-altium-import:GND_POWER_GROUND")
+		(at 187.96 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ec5186c8-972e-4329-a33e-6ec353619c9e")
+		(property "Reference" "#PWR?"
+			(at 187.96 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.96 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "003494ec-4f53-4fa5-9474-7a348e444b86")
+		)
+		(instances
+			(project "Trackpoint"
+				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/7f0b0dd4-adcc-4917-b582-7b19e68204af"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switches:BTN_0_mirrored_D2LS-21_Switches.SchLib")
+		(at 111.76 119.38 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fde5a5f2-ee8e-49b9-b557-bd5a18f5bbe6")
+		(property "Reference" "SW8"
+			(at 106.426 115.57 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D2LS-21"
+			(at 106.426 124.46 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "D2LS-21"
+			(at 111.76 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Compact Surface-mounting Switch for long durability"
+			(at 111.76 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 103.632 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIER 2" "Mouser"
+			(at 103.632 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "Z4378CT-ND"
+			(at 103.632 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" "653-D2LS-21"
+			(at 103.632 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "A"
+			(uuid "cad5e4b3-e491-4477-9971-c9b8567a25c6")
+		)
+		(pin "B"
+			(uuid "e2fddc98-01b2-45a5-8926-2cec25164848")
+		)
+		(instances
+			(project "Trackpoint"
+				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/7f0b0dd4-adcc-4917-b582-7b19e68204af"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

@@ -1,3 +1,11 @@
+## KiCad conversion fork
+
+The whole purpose of the intended changes is to convert hardware production files to KiCad and to generate production files that will allow for manufacturing PCBA using JLCPCB services.
+Until this file says otherwise - it's all untested.
+
+Visit [Ploopy website] for an best quality and experience.
+
+I claim no ownership of this design. It is Ploopy’s work, converted to KiCad and shared under CERN-OHL-S-2.0.
 # The Ploopy Bean Pointing Stick Mouse
 
 ![The Ploopy Bean Pointing Stick](https://cdn.ploopy.co/2026-04-08-bean-media-assets/bean-parallax-3.jpg)

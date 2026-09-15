@@ -1,0 +1,1925 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "a432d5e5-1d60-4fc3-b670-54fb7040f6b8")
+	(paper "USLetter")
+	(title_block
+		(rev "R1.001")
+		(company "Ploopy Corporation")
+	)
+	(lib_symbols
+		(symbol "Chip_Passives:REG_1_Cap 10uF 25V_Chip_Passives.SchLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "0805, X5R or better"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*0805{space}-{space}TALL*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "REG_1_Cap 10uF 25V_Chip_Passives.SchLib_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 156 202 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 156 202 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -0.762) (xy -4.572 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 156 202 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.778) (xy -4.572 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 156 202 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Chip_Passives:REG_1_Cap 1uF 25V_Chip_Passives.SchLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "0805, X5R or better"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*0805{space}-{space}TALL*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "REG_1_Cap 1uF 25V_Chip_Passives.SchLib_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 156 202 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 156 202 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -0.762) (xy -4.572 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 156 202 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.778) (xy -4.572 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 156 202 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PowerSupply:REG_0_AP2202K-3.3_PowerSupply.SchLib"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "3.3V 150mA LDO regulator"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*AP2202{space}-{space}SOT95P270X145-5N*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "REG_0_AP2202K-3.3_PowerSupply.SchLib_1_0"
+				(rectangle
+					(start 7.62 -10.16)
+					(end -17.78 7.62)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 15.24 270)
+					(length 7.62)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 15.24 270)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 15.24 270)
+					(length 7.62)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -17.78 90)
+					(length 7.62)
+					(name "BYP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -17.78 90)
+					(length 7.62)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Trackpoint-altium-import:GND_POWER_GROUND"
+			(power global)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Symbol zasilania tworzy globalną etykietę z nazwą 'GND'"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_POWER_GROUND_0_0"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -3.302) (xy 1.778 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy 1.016 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -4.826) (xy 0.254 -4.826)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Copyright Ploopy Corporation"
+		(exclude_from_sim no)
+		(at 99.314 202.946 0)
+		(effects
+			(font
+				(size 1.397 1.397)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ba0d087-b4f6-4544-9501-5f23a8fa174e")
+	)
+	(text "Sheet"
+		(exclude_from_sim no)
+		(at 209.55 210.82 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "2020ffcf-cd3b-4e58-a575-62f7409908e9")
+	)
+	(text "Licensed under the CERN-OHL-S v2"
+		(exclude_from_sim no)
+		(at 99.314 206.248 0)
+		(effects
+			(font
+				(size 1.397 1.397)
+			)
+			(justify left bottom)
+		)
+		(uuid "269b399f-9cbc-4700-9715-bfacb255894f")
+	)
+	(text "${PROJECTNAME}"
+		(exclude_from_sim no)
+		(at 150.622 207.264 0)
+		(effects
+			(font
+				(size 1.651 1.651)
+			)
+			(justify left bottom)
+		)
+		(uuid "26e0ee70-2b07-46f4-b42a-a7a24f7d4fb3")
+	)
+	(text "${CURRENT_DATE}"
+		(exclude_from_sim no)
+		(at 151.13 210.82 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "2912312a-6da1-4d86-8830-97c9a21c06a7")
+	)
+	(text "${FILENAME}"
+		(exclude_from_sim no)
+		(at 150.622 202.184 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b4addb4-39b5-4279-be36-aabb6bd80326")
+	)
+	(text "PCB:"
+		(exclude_from_sim no)
+		(at 144.78 207.01 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "4dc6455e-416c-445c-b4d0-1e6562504a5a")
+	)
+	(text "Ploopy Corporation"
+		(exclude_from_sim no)
+		(at 241.3 202.438 0)
+		(effects
+			(font
+				(size 1.651 1.651)
+			)
+			(justify left bottom)
+		)
+		(uuid "59a1dd16-b3e1-4da7-98ee-602a6b599e3c")
+	)
+	(text "${##}"
+		(exclude_from_sim no)
+		(at 223.266 210.82 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "72529eda-79bd-4517-a044-a6535ab4811e")
+	)
+	(text "${CURRENTTIME}"
+		(exclude_from_sim no)
+		(at 170.18 210.82 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "768a290e-507c-42c4-8037-87b1f68862d8")
+	)
+	(text "${#}"
+		(exclude_from_sim no)
+		(at 216.154 210.82 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a8b9cf1-5d9d-41a9-b849-43aafaad8721")
+	)
+	(text "http://ohwr.org/cernohl"
+		(exclude_from_sim no)
+		(at 99.314 209.042 0)
+		(effects
+			(font
+				(size 1.397 1.397)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f8d52a2-e0f7-4801-b24f-fb0ffadf36db")
+	)
+	(text "Mississauga ON L5C 0A3"
+		(exclude_from_sim no)
+		(at 241.3 207.518 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "807e1c53-5f48-44e3-850a-8cb39635e45a")
+	)
+	(text "Title:"
+		(exclude_from_sim no)
+		(at 144.78 201.93 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "87818310-97ca-44ad-8199-7e1908bbf358")
+	)
+	(text "Date:"
+		(exclude_from_sim no)
+		(at 144.78 210.82 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd331650-0ed1-49cc-9d0e-34c1eeb03872")
+	)
+	(text "Time:"
+		(exclude_from_sim no)
+		(at 163.83 210.82 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf8e034c-24f3-4335-be16-33e8af704ed0")
+	)
+	(text "Version:"
+		(exclude_from_sim no)
+		(at 209.55 207.01 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "d84bd0a2-5be8-4812-b991-34d4837c2aa9")
+	)
+	(text "of"
+		(exclude_from_sim no)
+		(at 219.71 210.82 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "dfd9cdf7-6fd7-4016-b160-8e92b4f5f65d")
+	)
+	(text "${REVISION}"
+		(exclude_from_sim no)
+		(at 218.186 207.264 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0114354-82eb-4a0c-ad27-1251d4d47b40")
+	)
+	(text "137-1140 Burnhamthorpe Road W"
+		(exclude_from_sim no)
+		(at 241.3 204.978 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0ddd02d-959b-4791-8e84-d3628129ee06")
+	)
+	(text "Canada"
+		(exclude_from_sim no)
+		(at 241.3 210.058 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "f77ff775-0550-4697-84f0-e905ebeee50d")
+	)
+	(junction
+		(at 88.9 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53d16e1e-6426-447c-9a68-c2182b82a747")
+	)
+	(junction
+		(at 175.26 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b325ea8-6794-4304-9f6a-2643731e96af")
+	)
+	(junction
+		(at 99.06 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a45dcd85-4d18-476a-a055-4a3629f4d9c9")
+	)
+	(junction
+		(at 160.02 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a517b0d4-ab72-45e5-b372-3a47e789e9a4")
+	)
+	(junction
+		(at 99.06 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebcfa0c7-5b94-42e2-94d7-b02e6d9e22fb")
+	)
+	(wire
+		(pts
+			(xy 99.06 78.74) (xy 99.06 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a7dba64-8ab3-4aa6-9aec-494e00648bab")
+	)
+	(polyline
+		(pts
+			(xy 227.33 198.12) (xy 227.33 210.82)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "17aaddf6-6006-452b-8297-c6f5c269285d")
+	)
+	(polyline
+		(pts
+			(xy 208.28 203.2) (xy 208.28 210.82)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "2301716f-93c1-464e-8ac7-d553d88eab86")
+	)
+	(wire
+		(pts
+			(xy 109.22 78.74) (xy 99.06 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6157bc78-7a7f-4c30-b41d-9cb6f2220a11")
+	)
+	(polyline
+		(pts
+			(xy 143.51 208.28) (xy 227.33 208.28)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "63c83cee-3320-4ccf-a303-167fb9786505")
+	)
+	(wire
+		(pts
+			(xy 109.22 88.9) (xy 88.9 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "709a04b3-f4d4-4d03-9a70-a9117a5d2b60")
+	)
+	(wire
+		(pts
+			(xy 88.9 68.58) (xy 86.36 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73f66059-7a26-4835-aa3b-67012e6caa70")
+	)
+	(polyline
+		(pts
+			(xy 143.51 198.12) (xy 143.51 210.82)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "7fb0d593-cc8e-477d-b3eb-f6682f8f34c4")
+	)
+	(wire
+		(pts
+			(xy 88.9 88.9) (xy 88.9 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a8c4440-cc74-4dad-9567-ba30298b2e2d")
+	)
+	(polyline
+		(pts
+			(xy 143.51 203.2) (xy 227.33 203.2)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "9ccf7b06-d696-44b5-ad8c-a4231b6d4598")
+	)
+	(wire
+		(pts
+			(xy 185.42 68.58) (xy 142.24 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a68d4a43-42bb-477f-82fd-8652fd58c050")
+	)
+	(polyline
+		(pts
+			(xy 274.32 198.12) (xy 143.51 198.12)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "a76c9cbf-3e1d-48cf-ad3b-93736d6426b3")
+	)
+	(polyline
+		(pts
+			(xy 97.79 198.12) (xy 97.79 210.82)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "dbf43a1e-eca3-424f-b196-a4f0a1b8c8e0")
+	)
+	(polyline
+		(pts
+			(xy 143.51 198.12) (xy 97.79 198.12)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "e384f197-9f2b-4165-bb2c-498845fd5bcf")
+	)
+	(wire
+		(pts
+			(xy 88.9 68.58) (xy 109.22 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8ba78db-1995-4a64-bfe4-b859dcd1652e")
+	)
+	(hierarchical_label "3V3"
+		(shape output)
+		(at 185.42 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "47a93fd1-f485-4f5f-a937-ebf5496dd7fc")
+	)
+	(hierarchical_label "V_USB"
+		(shape input)
+		(at 86.36 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6018749c-cd2b-4f88-bfc4-777aede25647")
+	)
+	(symbol
+		(lib_id "Chip_Passives:REG_1_Cap 1uF 25V_Chip_Passives.SchLib")
+		(at 172.72 73.66 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5f644cad-0edb-4525-a9de-dd00c8241104")
+		(property "Reference" "C14"
+			(at 177.546 73.406 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "0805 X5R"
+			(at 177.546 75.946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "0805 - TALL"
+			(at 172.72 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0805, X5R or better"
+			(at 172.72 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALTIUM_VALUE" "1uF 25V"
+			(at 177.546 78.486 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 172.974 68.072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "1276-1066-2-ND"
+			(at 172.974 68.072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "SUPPLIER 2" "Digi-Key"
+			(at 172.974 68.072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" "1276-1066-1-ND"
+			(at 172.974 68.072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "2"
+			(uuid "a9607e63-7a9c-47d0-a84d-9b1f8eb79ae6")
+		)
+		(pin "1"
+			(uuid "c68508f0-c54a-469b-abac-d147a7bda339")
+		)
+		(instances
+			(project "Trackpoint"
+				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/b283ed3a-f471-4bf8-bb22-476d14500d3a"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Trackpoint-altium-import:GND_POWER_GROUND")
+		(at 99.06 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "70c27a4b-d954-4a02-bca0-cb9269e9ccf4")
+		(property "Reference" "#PWR?"
+			(at 99.06 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "ef0f0e3f-3f0a-4bae-80b6-52b5cd72e70a")
+		)
+		(instances
+			(project "Trackpoint"
+				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/b283ed3a-f471-4bf8-bb22-476d14500d3a"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Chip_Passives:REG_1_Cap 10uF 25V_Chip_Passives.SchLib")
+		(at 157.48 73.66 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7b6399db-2766-4a96-a917-82ba3cf0d2b7")
+		(property "Reference" "C13"
+			(at 162.306 73.406 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "0805 X5R"
+			(at 162.306 75.946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "0805 - TALL"
+			(at 157.48 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0805, X5R or better"
+			(at 157.48 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 157.734 68.072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "81-GRM21BR61E106KA3L"
+			(at 157.734 68.072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "SUPPLIER 2" "Digi-Key"
+			(at 157.734 68.072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" "490-5523-1-ND"
+			(at 157.734 68.072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "10uF 25V"
+			(at 162.306 78.486 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "2"
+			(uuid "fd12c443-a74c-4a59-afa5-cd92b2b46115")
+		)
+		(pin "1"
+			(uuid "0c6a9c42-e608-4d0b-8baf-3c0e73b5648f")
+		)
+		(instances
+			(project "Trackpoint"
+				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/b283ed3a-f471-4bf8-bb22-476d14500d3a"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply:REG_0_AP2202K-3.3_PowerSupply.SchLib")
+		(at 124.46 73.66 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "96057f48-4f70-49ca-b750-7b52aa8709e9")
+		(property "Reference" "U3"
+			(at 116.84 66.04 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "AP2202K-3.3"
+			(at 116.84 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "AP2202 - SOT95P270X145-5N"
+			(at 124.46 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "3.3V 150mA LDO regulator"
+			(at 124.46 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 108.712 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "621-AP2202K-3.3TRG1"
+			(at 108.712 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "SUPPLIER 2" "Digi-Key"
+			(at 108.712 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" "AP2202K-3.3TRG1DICT-ND"
+			(at 108.712 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "SUPPLIER 3" "Arrow"
+			(at 108.712 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 3" "PWagzdsTFFHKE_U17B45SP-NtndBrheJIaI5hB7gHD0ZVywxIBNyoAQstvnyfZZ0"
+			(at 108.712 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "1"
+			(uuid "fd6a4554-8389-4a2e-a096-1a49bc428902")
+		)
+		(pin "2"
+			(uuid "1f79e33f-0f69-4679-9247-719209b861bd")
+		)
+		(pin "3"
+			(uuid "a03e9716-d9a1-472e-b832-73892b95a69f")
+		)
+		(pin "4"
+			(uuid "088c7612-e149-413b-bacc-4f3ac9c08caf")
+		)
+		(pin "5"
+			(uuid "e1a04db6-10ba-46be-be91-93c901457f81")
+		)
+		(instances
+			(project "Trackpoint"
+				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/b283ed3a-f471-4bf8-bb22-476d14500d3a"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Chip_Passives:REG_1_Cap 1uF 25V_Chip_Passives.SchLib")
+		(at 96.52 73.66 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9dbb7604-04d1-4dd7-b705-cbea9730f4a9")
+		(property "Reference" "C12"
+			(at 101.346 73.406 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "0805 X5R"
+			(at 101.346 75.946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "0805 - TALL"
+			(at 96.52 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0805, X5R or better"
+			(at 96.52 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALTIUM_VALUE" "1uF 25V"
+			(at 101.346 78.486 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 96.774 68.072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "1276-1066-2-ND"
+			(at 96.774 68.072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "SUPPLIER 2" "Digi-Key"
+			(at 96.774 68.072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" "1276-1066-1-ND"
+			(at 96.774 68.072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "2"
+			(uuid "54aed7b4-f47e-4e1b-a6ba-587c4ff262bf")
+		)
+		(pin "1"
+			(uuid "dd69191c-6949-4892-a11b-68b62732a7b2")
+		)
+		(instances
+			(project "Trackpoint"
+				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/b283ed3a-f471-4bf8-bb22-476d14500d3a"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Trackpoint-altium-import:GND_POWER_GROUND")
+		(at 160.02 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9e258af6-b5f5-4336-a08d-990cf1574db5")
+		(property "Reference" "#PWR?"
+			(at 160.02 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "d584a62c-41a9-49ec-a7a0-29b1a65d953f")
+		)
+		(instances
+			(project "Trackpoint"
+				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/b283ed3a-f471-4bf8-bb22-476d14500d3a"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Trackpoint-altium-import:GND_POWER_GROUND")
+		(at 175.26 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cd4cb347-9d08-42ff-9a7d-a9c17e4001d1")
+		(property "Reference" "#PWR?"
+			(at 175.26 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "c6a98499-be37-4f3e-b49a-d22e7d5a20a2")
+		)
+		(instances
+			(project "Trackpoint"
+				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/b283ed3a-f471-4bf8-bb22-476d14500d3a"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
