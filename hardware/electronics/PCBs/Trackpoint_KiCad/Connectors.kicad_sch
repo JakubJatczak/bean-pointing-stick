@@ -3132,7 +3132,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "086d30c2-0fe4-4c70-b416-8f18d8e7ca37")
-		(property "Reference" "FB2"
+		(property "Reference" "USB.FB.2"
 			(at 198.12 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3232,7 +3232,7 @@
 		(instances
 			(project "Trackpoint"
 				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/a056f087-e621-494b-bb8a-f53c663bfa45"
-					(reference "FB2")
+					(reference "USB.FB.2")
 					(unit 1)
 				)
 			)
@@ -3249,7 +3249,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "237533dc-8885-4d4c-ba24-6588d56a9e8c")
-		(property "Reference" "Ra1"
+		(property "Reference" "USB.Ra.1"
 			(at 122.682 101.346 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3315,6 +3315,42 @@
 				(justify right bottom)
 			)
 		)
+		(property "JLCPCB Part #" "C17902"
+			(at 122.682 106.426 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 122.682 106.426 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Manufacturer Part #" "1206W4F1002T5E"
+			(at 122.682 106.426 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
 		(pin "1"
 			(uuid "71c3fcbb-47ae-48aa-a5ca-97b154605c89")
 		)
@@ -3342,7 +3378,7 @@
 		(instances
 			(project "Trackpoint"
 				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/a056f087-e621-494b-bb8a-f53c663bfa45"
-					(reference "Ra1")
+					(reference "USB.Ra.1")
 					(unit 2)
 				)
 			)
@@ -3359,7 +3395,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4291a8ac-439a-4545-8aa0-717ea361fff2")
-		(property "Reference" "Ra1"
+		(property "Reference" "USB.Ra.1"
 			(at 89.662 101.346 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3425,6 +3461,42 @@
 				(justify right bottom)
 			)
 		)
+		(property "JLCPCB Part #" "C17902"
+			(at 89.662 106.426 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 89.662 106.426 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Manufacturer Part #" "1206W4F1002T5E"
+			(at 89.662 106.426 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
 		(pin "1"
 			(uuid "942e4041-7b5f-4a33-b6b0-49aaf78c4b6f")
 		)
@@ -3452,7 +3524,7 @@
 		(instances
 			(project "Trackpoint"
 				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/a056f087-e621-494b-bb8a-f53c663bfa45"
-					(reference "Ra1")
+					(reference "USB.Ra.1")
 					(unit 4)
 				)
 			)
@@ -3469,7 +3541,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "44e4420d-a04b-4e72-bd9f-ab4f561bf068")
-		(property "Reference" "Ra1"
+		(property "Reference" "USB.Ra.1"
 			(at 74.422 101.346 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3535,6 +3607,42 @@
 				(justify right bottom)
 			)
 		)
+		(property "JLCPCB Part #" "C17902"
+			(at 74.422 106.426 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 74.422 106.426 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Manufacturer Part #" "1206W4F1002T5E"
+			(at 74.422 106.426 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
 		(pin "1"
 			(uuid "8546f4b9-adc3-4551-a7af-3b09bf0948c1")
 		)
@@ -3562,7 +3670,7 @@
 		(instances
 			(project "Trackpoint"
 				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/a056f087-e621-494b-bb8a-f53c663bfa45"
-					(reference "Ra1")
+					(reference "USB.Ra.1")
 					(unit 3)
 				)
 			)
@@ -3653,7 +3761,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5165d5df-889f-4f1c-a003-b6f5f3e5b26b")
-		(property "Reference" "R7"
+		(property "Reference" "USB.R.7"
 			(at 235.966 100.838 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3776,7 +3884,7 @@
 		(instances
 			(project "Trackpoint"
 				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/a056f087-e621-494b-bb8a-f53c663bfa45"
-					(reference "R7")
+					(reference "USB.R.7")
 					(unit 1)
 				)
 			)
@@ -3793,7 +3901,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e4556a1-20f3-4968-9b89-3f38cbbc8dc6")
-		(property "Reference" "FB3"
+		(property "Reference" "USB.FB.3"
 			(at 198.12 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3893,7 +4001,7 @@
 		(instances
 			(project "Trackpoint"
 				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/a056f087-e621-494b-bb8a-f53c663bfa45"
-					(reference "FB3")
+					(reference "USB.FB.3")
 					(unit 1)
 				)
 			)
@@ -3910,7 +4018,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6105dfd1-e035-4e08-9872-62f686100dbc")
-		(property "Reference" "Z1"
+		(property "Reference" "USB.Z.1"
 			(at 177.8 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4058,7 +4166,7 @@
 		(instances
 			(project "Trackpoint"
 				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/a056f087-e621-494b-bb8a-f53c663bfa45"
-					(reference "Z1")
+					(reference "USB.Z.1")
 					(unit 1)
 				)
 			)
@@ -4075,7 +4183,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "623542b0-9f16-4dea-8a85-e44e0bc8ae39")
-		(property "Reference" "R6"
+		(property "Reference" "USB.R.6"
 			(at 235.966 90.678 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4198,7 +4306,7 @@
 		(instances
 			(project "Trackpoint"
 				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/a056f087-e621-494b-bb8a-f53c663bfa45"
-					(reference "R6")
+					(reference "USB.R.6")
 					(unit 1)
 				)
 			)
@@ -4290,7 +4398,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "937b5206-965f-4694-ad11-139fbc7d1f5d")
-		(property "Reference" "J3"
+		(property "Reference" "USB.J.3"
 			(at 20.32 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4435,7 +4543,7 @@
 		(instances
 			(project "Trackpoint"
 				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/a056f087-e621-494b-bb8a-f53c663bfa45"
-					(reference "J3")
+					(reference "USB.J.3")
 					(unit 1)
 				)
 			)
@@ -4452,7 +4560,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5bd8b66-377e-4740-bec8-983b37289c86")
-		(property "Reference" "FB1"
+		(property "Reference" "USB.FB.1"
 			(at 198.12 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4552,7 +4660,7 @@
 		(instances
 			(project "Trackpoint"
 				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/a056f087-e621-494b-bb8a-f53c663bfa45"
-					(reference "FB1")
+					(reference "USB.FB.1")
 					(unit 1)
 				)
 			)
@@ -4717,7 +4825,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4ceaa98-10b3-4a13-ba8f-90565d2d63de")
-		(property "Reference" "Ra1"
+		(property "Reference" "USB.Ra.1"
 			(at 107.442 101.346 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4783,6 +4891,42 @@
 				(justify right bottom)
 			)
 		)
+		(property "JLCPCB Part #" "C17902"
+			(at 107.442 106.426 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 107.442 106.426 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Manufacturer Part #" "1206W4F1002T5E"
+			(at 107.442 106.426 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
 		(pin "1"
 			(uuid "25c53235-99b8-40f2-8873-f6aa128f01df")
 		)
@@ -4810,7 +4954,7 @@
 		(instances
 			(project "Trackpoint"
 				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/a056f087-e621-494b-bb8a-f53c663bfa45"
-					(reference "Ra1")
+					(reference "USB.Ra.1")
 					(unit 1)
 				)
 			)

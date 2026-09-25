@@ -5332,7 +5332,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "10b2e5ab-db4f-45b1-94d7-c11d4d436363")
-		(property "Reference" "C1"
+		(property "Reference" "MCU.C.1"
 			(at 286.766 98.6282 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5455,7 +5455,7 @@
 		(instances
 			(project "Trackpoint"
 				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/61e63e2a-679d-4322-b593-e2d34443bebf"
-					(reference "C1")
+					(reference "MCU.C.1")
 					(unit 1)
 				)
 			)
@@ -5472,7 +5472,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13af1217-f4f5-409c-8feb-fcebfc1a7c4e")
-		(property "Reference" "C22"
+		(property "Reference" "MCU.C.22"
 			(at 261.366 207.8482 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5571,7 +5571,7 @@
 		(instances
 			(project "Trackpoint"
 				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/61e63e2a-679d-4322-b593-e2d34443bebf"
-					(reference "C22")
+					(reference "MCU.C.22")
 					(unit 1)
 				)
 			)
@@ -5588,7 +5588,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "27910754-9ee0-4938-8a05-082a17037287")
-		(property "Reference" "J1"
+		(property "Reference" "MCU.J.1"
 			(at 175.26 76.0222 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5700,7 +5700,7 @@
 		(instances
 			(project "Trackpoint"
 				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/61e63e2a-679d-4322-b593-e2d34443bebf"
-					(reference "J1")
+					(reference "MCU.J.1")
 					(unit 1)
 				)
 			)
@@ -5717,7 +5717,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a1083bd-cf3f-469a-bafc-ff0edeb4623a")
-		(property "Reference" "C3"
+		(property "Reference" "MCU.C.3"
 			(at 340.106 146.8882 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5816,7 +5816,7 @@
 		(instances
 			(project "Trackpoint"
 				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/61e63e2a-679d-4322-b593-e2d34443bebf"
-					(reference "C3")
+					(reference "MCU.C.3")
 					(unit 1)
 				)
 			)
@@ -5833,7 +5833,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3f8c8ea6-ce03-4f57-8149-f896d5f8c742")
-		(property "Reference" "U1"
+		(property "Reference" "MCU.U.1"
 			(at 231.14 91.2622 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5913,6 +5913,30 @@
 				(justify right bottom)
 			)
 		)
+		(property "JLCPCB Part #" "C82317"
+			(at 212.852 37.9222 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Manufacturer" "Winbond Elec"
+			(at 212.852 37.9222 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
 		(pin "1"
 			(uuid "1ce718fc-095b-499b-8cb2-6c96141ee1b0")
 		)
@@ -5940,7 +5964,7 @@
 		(instances
 			(project "Trackpoint"
 				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/61e63e2a-679d-4322-b593-e2d34443bebf"
-					(reference "U1")
+					(reference "MCU.U.1")
 					(unit 1)
 				)
 			)
@@ -6031,7 +6055,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "40a10306-b8a4-4eb0-b385-730e6d45f813")
-		(property "Reference" "R1"
+		(property "Reference" "MCU.R.1"
 			(at 205.486 77.8002 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6130,7 +6154,7 @@
 		(instances
 			(project "Trackpoint"
 				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/61e63e2a-679d-4322-b593-e2d34443bebf"
-					(reference "R1")
+					(reference "MCU.R.1")
 					(unit 1)
 				)
 			)
@@ -6443,7 +6467,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "76d79542-5a8d-497a-8214-c799ff624bec")
-		(property "Reference" "C5"
+		(property "Reference" "MCU.C.5"
 			(at 304.546 159.5882 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6566,7 +6590,7 @@
 		(instances
 			(project "Trackpoint"
 				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/61e63e2a-679d-4322-b593-e2d34443bebf"
-					(reference "C5")
+					(reference "MCU.C.5")
 					(unit 1)
 				)
 			)
@@ -6657,7 +6681,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c04de94-f505-4083-bc5f-ab7ea9475f10")
-		(property "Reference" "C6"
+		(property "Reference" "MCU.C.6"
 			(at 286.766 164.6682 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6756,7 +6780,7 @@
 		(instances
 			(project "Trackpoint"
 				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/61e63e2a-679d-4322-b593-e2d34443bebf"
-					(reference "C6")
+					(reference "MCU.C.6")
 					(unit 1)
 				)
 			)
@@ -6847,7 +6871,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9462098d-d441-4f44-abd2-e28f2c11012e")
-		(property "Reference" "Y1"
+		(property "Reference" "MCU.Y.1"
 			(at 109.22 192.8622 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6965,7 +6989,7 @@
 		(instances
 			(project "Trackpoint"
 				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/61e63e2a-679d-4322-b593-e2d34443bebf"
-					(reference "Y1")
+					(reference "MCU.Y.1")
 					(unit 1)
 				)
 			)
@@ -7056,7 +7080,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9bae81fc-b5cc-4fc2-bf85-9e3a4773fc7b")
-		(property "Reference" "U5"
+		(property "Reference" "MCU.U.5"
 			(at 154.94 93.8022 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7310,7 +7334,7 @@
 		(instances
 			(project "Trackpoint"
 				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/61e63e2a-679d-4322-b593-e2d34443bebf"
-					(reference "U5")
+					(reference "MCU.U.5")
 					(unit 1)
 				)
 			)
@@ -7401,7 +7425,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9de348d1-fb7b-4e4e-8014-ccaf5fd5bd0b")
-		(property "Reference" "R2"
+		(property "Reference" "MCU.R.2"
 			(at 230.886 77.8002 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7500,7 +7524,7 @@
 		(instances
 			(project "Trackpoint"
 				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/61e63e2a-679d-4322-b593-e2d34443bebf"
-					(reference "R2")
+					(reference "MCU.R.2")
 					(unit 1)
 				)
 			)
@@ -7517,7 +7541,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e96b56d-4b62-4d3e-9ece-a07a6ce672df")
-		(property "Reference" "C2"
+		(property "Reference" "MCU.C.2"
 			(at 360.426 139.2682 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7640,7 +7664,7 @@
 		(instances
 			(project "Trackpoint"
 				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/61e63e2a-679d-4322-b593-e2d34443bebf"
-					(reference "C2")
+					(reference "MCU.C.2")
 					(unit 1)
 				)
 			)
@@ -7657,7 +7681,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f6a2822-c477-47cc-bb60-6e95e5dae275")
-		(property "Reference" "C4"
+		(property "Reference" "MCU.C.4"
 			(at 322.326 151.9682 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7756,7 +7780,7 @@
 		(instances
 			(project "Trackpoint"
 				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/61e63e2a-679d-4322-b593-e2d34443bebf"
-					(reference "C4")
+					(reference "MCU.C.4")
 					(unit 1)
 				)
 			)
@@ -7773,7 +7797,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a89d5258-f2a5-4ad2-a94d-79512d258ce7")
-		(property "Reference" "R11"
+		(property "Reference" "MCU.R.11"
 			(at 124.206 199.7202 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7872,7 +7896,7 @@
 		(instances
 			(project "Trackpoint"
 				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/61e63e2a-679d-4322-b593-e2d34443bebf"
-					(reference "R11")
+					(reference "MCU.R.11")
 					(unit 1)
 				)
 			)
@@ -8037,7 +8061,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be834438-537e-4d15-a696-0fae1d87870d")
-		(property "Reference" "C7"
+		(property "Reference" "MCU.C.7"
 			(at 251.206 177.3682 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8160,7 +8184,7 @@
 		(instances
 			(project "Trackpoint"
 				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/61e63e2a-679d-4322-b593-e2d34443bebf"
-					(reference "C7")
+					(reference "MCU.C.7")
 					(unit 1)
 				)
 			)
@@ -8177,7 +8201,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ecfdd50a-0063-46ef-94b1-26ba1aa7b8c8")
-		(property "Reference" "C21"
+		(property "Reference" "MCU.C.21"
 			(at 279.146 200.2282 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8300,7 +8324,7 @@
 		(instances
 			(project "Trackpoint"
 				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/61e63e2a-679d-4322-b593-e2d34443bebf"
-					(reference "C21")
+					(reference "MCU.C.21")
 					(unit 1)
 				)
 			)

@@ -868,7 +868,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "02e7b546-8682-4669-9568-f8dba402dfb2")
-		(property "Reference" "SW4"
+		(property "Reference" "BTN.SW.4"
 			(at 172.466 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -980,7 +980,7 @@
 		(instances
 			(project "Trackpoint"
 				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/7f0b0dd4-adcc-4917-b582-7b19e68204af"
-					(reference "SW4")
+					(reference "BTN.SW.4")
 					(unit 1)
 				)
 			)
@@ -998,7 +998,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15d05890-1ea9-49aa-9c68-cf6a6c667f00")
-		(property "Reference" "SW6"
+		(property "Reference" "BTN.SW.6"
 			(at 172.466 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1110,7 +1110,7 @@
 		(instances
 			(project "Trackpoint"
 				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/7f0b0dd4-adcc-4917-b582-7b19e68204af"
-					(reference "SW6")
+					(reference "BTN.SW.6")
 					(unit 1)
 				)
 			)
@@ -1276,7 +1276,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "84924333-7136-4401-a21f-982d829bfdf8")
-		(property "Reference" "SW2"
+		(property "Reference" "BTN.SW.2"
 			(at 106.426 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1388,7 +1388,7 @@
 		(instances
 			(project "Trackpoint"
 				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/7f0b0dd4-adcc-4917-b582-7b19e68204af"
-					(reference "SW2")
+					(reference "BTN.SW.2")
 					(unit 1)
 				)
 			)
@@ -1554,7 +1554,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fde5a5f2-ee8e-49b9-b557-bd5a18f5bbe6")
-		(property "Reference" "SW8"
+		(property "Reference" "BTN.SW.8"
 			(at 106.426 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1666,7 +1666,7 @@
 		(instances
 			(project "Trackpoint"
 				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/7f0b0dd4-adcc-4917-b582-7b19e68204af"
-					(reference "SW8")
+					(reference "BTN.SW.8")
 					(unit 1)
 				)
 			)

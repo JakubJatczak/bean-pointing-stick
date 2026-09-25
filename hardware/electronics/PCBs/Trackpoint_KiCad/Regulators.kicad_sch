@@ -1129,7 +1129,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5f644cad-0edb-4525-a9de-dd00c8241104")
-		(property "Reference" "C14"
+		(property "Reference" "REG.C.14"
 			(at 177.546 73.406 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1252,7 +1252,7 @@
 		(instances
 			(project "Trackpoint"
 				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/b283ed3a-f471-4bf8-bb22-476d14500d3a"
-					(reference "C14")
+					(reference "REG.C.14")
 					(unit 1)
 				)
 			)
@@ -1343,7 +1343,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b6399db-2766-4a96-a917-82ba3cf0d2b7")
-		(property "Reference" "C13"
+		(property "Reference" "REG.C.13"
 			(at 162.306 73.406 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1466,7 +1466,7 @@
 		(instances
 			(project "Trackpoint"
 				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/b283ed3a-f471-4bf8-bb22-476d14500d3a"
-					(reference "C13")
+					(reference "REG.C.13")
 					(unit 1)
 				)
 			)
@@ -1483,7 +1483,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "96057f48-4f70-49ca-b750-7b52aa8709e9")
-		(property "Reference" "U3"
+		(property "Reference" "REG.U.3"
 			(at 116.84 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1628,7 +1628,7 @@
 		(instances
 			(project "Trackpoint"
 				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/b283ed3a-f471-4bf8-bb22-476d14500d3a"
-					(reference "U3")
+					(reference "REG.U.3")
 					(unit 1)
 				)
 			)
@@ -1645,7 +1645,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9dbb7604-04d1-4dd7-b705-cbea9730f4a9")
-		(property "Reference" "C12"
+		(property "Reference" "REG.C.12"
 			(at 101.346 73.406 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1768,7 +1768,7 @@
 		(instances
 			(project "Trackpoint"
 				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/b283ed3a-f471-4bf8-bb22-476d14500d3a"
-					(reference "C12")
+					(reference "REG.C.12")
 					(unit 1)
 				)
 			)

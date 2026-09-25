@@ -1482,7 +1482,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0b25c76b-15fb-4344-a5d8-0faa0922b1c3")
-		(property "Reference" "Ra2"
+		(property "Reference" "RSN.Ra.2"
 			(at 115.062 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1548,6 +1548,42 @@
 				(justify right bottom)
 			)
 		)
+		(property "JLCPCB Part #" "C52199"
+			(at 115.062 88.646 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 115.062 88.646 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Manufacturer Part #" "1206W4F1001T5E"
+			(at 115.062 88.646 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
 		(pin "1"
 			(uuid "0bee71ee-a006-453d-b76c-f921a508021a")
 		)
@@ -1575,7 +1611,7 @@
 		(instances
 			(project "Trackpoint"
 				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/840bc58a-fb72-4e84-8a46-91a0827a7de5"
-					(reference "Ra2")
+					(reference "RSN.Ra.2")
 					(unit 2)
 				)
 			)
@@ -1592,7 +1628,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f2488a2-ebd4-491f-b7a6-cd22736ea609")
-		(property "Reference" "Ra2"
+		(property "Reference" "RSN.Ra.2"
 			(at 130.302 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1658,6 +1694,42 @@
 				(justify right bottom)
 			)
 		)
+		(property "JLCPCB Part #" "C52199"
+			(at 130.302 88.646 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 130.302 88.646 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Manufacturer Part #" "1206W4F1001T5E"
+			(at 130.302 88.646 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
 		(pin "1"
 			(uuid "f6ee5a3c-a694-4faf-a7ff-965e3ff40fd3")
 		)
@@ -1685,7 +1757,7 @@
 		(instances
 			(project "Trackpoint"
 				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/840bc58a-fb72-4e84-8a46-91a0827a7de5"
-					(reference "Ra2")
+					(reference "RSN.Ra.2")
 					(unit 4)
 				)
 			)
@@ -1776,7 +1848,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab3a2a67-d50e-4a08-b699-b43884d777ae")
-		(property "Reference" "Ra2"
+		(property "Reference" "RSN.Ra.2"
 			(at 130.302 93.726 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1842,6 +1914,42 @@
 				(justify right bottom)
 			)
 		)
+		(property "JLCPCB Part #" "C52199"
+			(at 130.302 98.806 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 130.302 98.806 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Manufacturer Part #" "1206W4F1001T5E"
+			(at 130.302 98.806 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
 		(pin "1"
 			(uuid "5b4087cb-15c0-45a5-ac58-4e76f9844811")
 		)
@@ -1869,7 +1977,7 @@
 		(instances
 			(project "Trackpoint"
 				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/840bc58a-fb72-4e84-8a46-91a0827a7de5"
-					(reference "Ra2")
+					(reference "RSN.Ra.2")
 					(unit 3)
 				)
 			)
@@ -1960,7 +2068,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be523f3a-7403-40d7-bef0-4816b3341310")
-		(property "Reference" "Ra2"
+		(property "Reference" "RSN.Ra.2"
 			(at 115.062 93.726 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2026,6 +2134,42 @@
 				(justify right bottom)
 			)
 		)
+		(property "JLCPCB Part #" "C52199"
+			(at 115.062 98.806 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 115.062 98.806 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Manufacturer Part #" "1206W4F1001T5E"
+			(at 115.062 98.806 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
 		(pin "7"
 			(uuid "5f7ff73a-9687-4c38-a83b-91b32c6349bb")
 		)
@@ -2053,7 +2197,7 @@
 		(instances
 			(project "Trackpoint"
 				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/840bc58a-fb72-4e84-8a46-91a0827a7de5"
-					(reference "Ra2")
+					(reference "RSN.Ra.2")
 					(unit 1)
 				)
 			)
@@ -2070,7 +2214,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d74a6408-1760-4f40-8c46-ef201f3f1e78")
-		(property "Reference" "C9"
+		(property "Reference" "RSN.C.9"
 			(at 197.866 119.126 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2169,7 +2313,7 @@
 		(instances
 			(project "Trackpoint"
 				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/840bc58a-fb72-4e84-8a46-91a0827a7de5"
-					(reference "C9")
+					(reference "RSN.C.9")
 					(unit 1)
 				)
 			)
@@ -2186,7 +2330,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e6001847-9be3-4be0-b830-940a01fdba34")
-		(property "Reference" "U6"
+		(property "Reference" "RSN.U.6"
 			(at 147.32 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2262,7 +2406,7 @@
 		(instances
 			(project "Trackpoint"
 				(path "/f80cdd06-fe18-4f08-ad78-5d64af2b92b5/840bc58a-fb72-4e84-8a46-91a0827a7de5"
-					(reference "U6")
+					(reference "RSN.U.6")
 					(unit 1)
 				)
 			)
